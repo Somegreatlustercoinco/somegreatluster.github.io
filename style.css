@@ -18,8 +18,8 @@ color:#585772;
 }
 
 .Med-grade-example {
-  grid-column-start: 2;
-grid-row-start: 3;
+  grid-column-start: 1;
+grid-row-start: 2;
     width: 100%;
     justify-content: center;
 
@@ -27,11 +27,17 @@ grid-row-start: 3;
 
     .also {
     grid-column-start: 1;
+    grid-template-rows: 1fr 1fr auto;
     grid-column-end: 5;
-    display: grid;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 500px;
+
     justify-content: space-around;
 }
-  
+
+.also ul{display:flex;}
 
 
   .Med-grade-example img{
@@ -39,6 +45,7 @@ grid-row-start: 3;
     display:contain;
     width:40%;
     justify-content:center;
+    grid-row-start: -: 
 
 }
 .coinset {
