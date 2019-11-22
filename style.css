@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     display: flex-end;
-
   }
 
   Body {
@@ -10,123 +9,175 @@
     box-sizing: border-box;
     position: relative;
   }
-
-.list h3 {
-  font-size: 20px;
-color:#585772;
+.also h3{text-align:center;
+  margin-top:50px;
+}
+.also h2{
+  font-size:20px
 
 }
-
-.Med-grade-example {
-  grid-column-start: 1;
-grid-row-start: 2;
-    width: 100%;
-    justify-content: center;
+  .list h3 {
+    font-size: 20px;
+    color: #585772;
 
   }
+.also img{max-width:100%}
 
-    .also {
-    grid-column-start: 1;
-    grid-template-rows: 1fr 1fr auto;
-    grid-column-end: 5;
-    display: flex;
+.assortments ul img{max-width:100%;}
+
+.assortments ul{
+  width:80%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-auto-rows: 1fr;
+  height:auto;
+  position: relative;
+  margin-bottom:100px;
+  justify-items:center;
+  text-align: center;
+  list-style: none;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+}
+
+  #sliderSection .inner-caption-text {padding: 0px 0px 0px 0px !important;}
+
+
+  .container-slider-content-button {display:none;}
+
+
+  .Med-grade-example img{margin-top: -200px;}
+
+.icon{background-image: url(./img/check.svg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+height: 30px;
+width:auto;
+
+}
+
+
+  .package{margin-top:200px;
+  }
+
+  .Med-grade-example {
+        grid-column-start: 1;
+        grid-column-end:3;
+    grid-row-start: 2;
+    width: 100%;
     justify-content: center;
-    text-align: center;
-    margin-bottom: 500px;
-
-    justify-content: space-around;
-}
-
-.also ul{display:flex;}
-
-
-  .Med-grade-example img{
-
-    display:contain;
-    width:40%;
-    justify-content:center;
-    grid-row-start: -: 
+    background-attachment: fixed;
+  }
+h5{text-align: center;
+font-size:15px;
+outline:red solid  1px;
+outline-offset: 1px 1px 1px 1px;
 
 }
-.coinset {
-    grid-column-start: -3;
-}
 
 
 
-  .coin-spin-section{
+  .also {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top:50px;
     position: relative;
-    display:flex;
+    text-align: center;
+    justify-items: center;
+  }
+
+
+
+  .Med-grade-example img {
+    display: contain;
+    width: 60%;
+    justify-content: center;
+  }
+
+  .coinset {
+    grid-column-start: -3;
+  }
+
+  .coin-spin-section {
+    position: relative;
+    display: flex;
     align-content: center;
     /*! text-align: center; */
     justify-content: ;
     justify-content: space-around;
     align-content: center;
-    top:-500px;
+    top: -490px;
+  }
+
+  .bothsides {
+    width: 20%;
+  }
+
+  ol {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  .product {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 3fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr fr auto;
+    background-image: url(./img/back.for.shipcoin.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .title {
+    color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin-top: em;
+    margin-left: auto;
+    margin-right: 10em;
+    line-height: 5.0;
+    margin-bottom: 7em;
+    height: 300px;
+    z-index: 1
   }
 
 
+  .title h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: ;
+    position: relative;
+  }
 
+  .banner-section {
+    background-image: url("./img/11.1.header.png");
+    background-color: #796b4e;
+    background-blend-mode: soft-light;
+    height: 95vh;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    opacity: .8;
+    z-index: -1;
+    position: ;
+    margin: auto;
+    padding: 5px;
+  }
 
-
-ol{
-  margin-top:50px;
-  font-size:30px;
-}
-
-.product{
-  display:grid;
-  justify-content: center;
-  grid-template-columns: 3fr 1fr 1fr 2fr ;
-  grid-template-rows: 1fr 1fr fr auto;
-background-image: url(./img/back.for.shipcoin.png);
-background-position: center;
-background-size: cover;
-background-attachment: fixed;
-
-}
-
-
-.title {
-  color:whitesmoke;
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-margin-top:20em;
-margin-left:auto;
-margin-right: 10em;
-line-height: 5.0 ;
-margin-bottom: 7em;
-z-index: 1}
-
-.title h1{font-size: 60px;
-color:white;
-font-weight: ;
-position:relative;
-}
-
-.banner-section {background-image: url("./img/11.1.header.png");
-background-color: #796b4e;
-background-blend-mode: soft-light;
-height: 95vh;
-background-attachment: fixed ;
-background-position: top;
-background-size: cover;
-background-repeat: no-repeat;
-object-fit: cover;
-opacity: .8;
-z-index: -1;
-position: ;
-margin:auto;
-padding:5px;
-}
-.parchments{
-  position:relative;
-  position: -100px;
-  z-index: 1;
-}
-
-
+  .parchments {
+    position: relative;
+    position: -100px;
+    z-index: 1;
+  }
 
   .flipcard {
     width: 300px;
@@ -157,23 +208,20 @@ padding:5px;
     text-align: center;
   }
 
-  .list{
+  .list {
     Display: grid;
     align-content: start;
     text-align: center;
     line-height: 2;
     grid-column-start: 2;
-    grid-column-end:5;
+    grid-column-end: 5;
     grid-row-start: 1;
-    padding-top: 300px;
     margin-right: 100px;
-
-
-
+    padding-bottom:200px;
   }
 
-  .list h1{
-    font-size:50px;
+  .list h1 {
+    font-size: 50px;
   }
 
   .flip-btn-show {
@@ -192,18 +240,17 @@ padding:5px;
   .flip-btn-front, .flip-btn-back {
     /*! height: 30px; */
     width: 100px;
-  outline: none;
+    outline: none;
     /*! border: none; */
     /*! border-style: ridge; */
   }
 
   .flip-btn-front {
-
     color: #BCB096;
     background: #BCB096;
     transition: all 1.8s;
     font-size: 24px;
-    outline:solid #BCB096 3px;
+    outline: solid #BCB096 3px;
     /*! border: none; */
     background: green;
   }
@@ -223,7 +270,8 @@ padding:5px;
     font-size: 24px;
   }
 
-  .coin-wrap:hover .flip-btn-front { outline:none;
+  .coin-wrap:hover .flip-btn-front {
+    outline: none;
     background: transparent;
     color: #dbdbdc;
     transition: all 1.8s;
@@ -245,7 +293,7 @@ padding:5px;
     width: 100%;
     height: 100%;
     align-items: center;
-    backface-visibility: hidden ;
+    backface-visibility: hidden;
     /*! top: -100px; */
   }
 
@@ -256,21 +304,22 @@ padding:5px;
     text-align: center;
   }
 
+  .parchments img {
+    position: relative;
+    z-index: -1;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    top: -150px;
+  }
 
-.parchments img{
-  position:relative;
-   z-index:-1;
-   align-content: center;
-   align-items: center;
-  margin: auto;
-  top: -150px;
-}
-  .coin-wrap{position: relative;
+  .coin-wrap {
+    position: relative;
     flex-basis: 55%;
     align-items: center;
     z-index: 1;
-top: 10;
-}
+    top: 10;
+  }
 
   .banner-text3 {
     justify-content: flex-end;
@@ -289,11 +338,11 @@ top: 10;
     font-size: 50px;
   }
 
-header {
-    display:flex !important;
+  header {
+    display: flex !important;
     margin-bottom: ;
     width: 100%;
-    height: 90px ;
+    height: 90px;
     margin: ;
     align-items: center;
     /*! background:linear-gradient(to right, whitesmoke, #BCB096); */
@@ -313,16 +362,18 @@ header {
     padding-left: 10px;
   }
 
-.logo-container img{
-  display: flex;
-  height: 125px;
-padding-left: 100px;
-padding-top: 10px;}
+  .logo-container img {
+    display: flex;
+    height: 125px;
+    padding-left: 100px;
+    padding-top: 10px;
+  }
 
-.flipcard{margin:auto;
-  position:relative;
-  top:-30px;
-}
+  .flipcard {
+    margin: auto;
+    position: relative;
+    top: -30px;
+  }
 
   .logo {
     display: none;
@@ -330,18 +381,20 @@ padding-top: 10px;}
     margin-left: 100px;
   }
 
-  nav{
+  nav {
     flex: 1;
   }
 
-  .nav-links {display: flex;
+  .nav-links {
+    display: flex;
     justify-content: space-around;
     list-style: none;
     color: white;
     font-color: white;
   }
 
-  .nav-link {display: flex;
+  .nav-link {
+    display: flex;
     color: #5f5f79;
     font-size: 18px;
     text-decoration: none;
@@ -360,61 +413,55 @@ padding-top: 10px;}
     width: 100%;
     margin: auto;
     display: grid;
-    grid-template-columns:2fr 1fr;
+    grid-template-columns: 2fr 1fr;
     background-image: url(./img/back.for.shipcoin.png);
-background-position: center;
-background-size: cover;
-background-attachment: fixed;
-
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
   }
 
+  .coin-spin-section {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 0px;
+  }
 
-.coin-spin-section { display: flex;
-  position: relative;
-align-items: center;
-margin-bottom:0px;}
+  .bothsides {
+    grid-area: 1;
+  }
 
+  .intro-text {
+    text-align: center;
+  }
 
-.bothsides{
-  grid-area:1;
-}
+  .trigger {
+    display: flex;
+    top: 120px;
+    position: absolute;
+    flex-basis: 50%;
+    left: 40px;
+  }
 
+  .buy {
+    height: 150px;
+    border-width: 2px;
+    border-color: #b5b5b5;
+    background: transparent;
+    color: #BCB096;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    align-text: center;
+    margin-top: 20px;
+    transition: .5s;
+  }
 
-.intro-text{
-  text-align: center;
-
-}
-.trigger{
-  display:flex;
-  top: 120px;
-  position: absolute;
-  flex-basis: 50%;
-  left: 40px;
-}
-
-
-
-.buy{height: 150px;
-  border-width: 2px;
-border-color: #b5b5b5;
-background: transparent;
-color: #BCB096;
-width: 150px;
-height: 40px;
-cursor: pointer;
-font-size: 20px;
-align-text:center;
-margin-top: 20px;
-transition: .5s;
-}
-
-.buy:hover {
-  background: #b5b5b5;
-  color:whitesmoke;
-}
-
-
-
+  .buy:hover {
+    background: #b5b5b5;
+    color: whitesmoke;
+  }
 
   .intro-text h2 {
     padding-top: 150px;
@@ -428,41 +475,45 @@ transition: .5s;
     -webkit-text-fill-color: transparent;
   }
 
-  .intro-text p{
-     padding-right: 160px;
-     padding-left: 150px;
+  .intro-text p {
+    padding-right: 160px;
+    padding-left: 150px;
     font-size: 20px;
     color: #585772;
     align-self: center;
   }
 
-.pamphlet {padding-top:100px;
-  position: relative;
-  text-align: center
-  display:grid;
-  grid-column-start: 2;
-grid-column-end: 5;
-grid-row-start:2;
-height:0px;
-display: inline-grid;
-}
+  .pamphlet {
+    position: relative;
+    text-align: center ;
+    display:grid;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    margin-top: -100px;
+    height: 500px;
+    display: inline-grid;
+    justify-items: center;
+  }
 
-.pamphlet img{
-  width: 80%;
-  height: auto;
-  justify-content:center;
-  grid-column-start:1;
-  display:grid;
-}
-
+  .pamphlet img {
+    width: auto;
+    max-height: 100%;
+    justify-content: center;
+    grid-column-start: 1;
+    display: grid;
+    position: relative;
+  }
 
   .ctasection {
     display: flex;
     position: relative;
-margin-bottom: ;
-
-
+    margin-bottom: ;
   }
+.title h2{opacity: .5;
+margin-right:;
+position: absolute;
+top:100px;}
 
   .cta {
     position: relative;
@@ -532,20 +583,19 @@ margin-bottom: ;
     font-size: 26px;
   }
 
-  .coverimage {display: flex;
+  .coverimage {
+    display: flex;
     flex 1;
-height: auto;
-  width:100%
-    justify-content:center;
-    object-fit:cover ;
+    height: auto;
+    width: 100% justify-content:center;
+    object-fit: cover;
     margin-right: 100px;
   }
 
   .coverimage img {
-    flex:1
-    height:100%;
-  object-fit: contain;
-    width:auto;
+    flex: 1 height:100%;
+    object-fit: contain;
+    width: auto;
     margin-left: 0;
     padding-right: 20px;
     justify-content: center;
@@ -553,26 +603,20 @@ height: auto;
     animation: drop 1.5s ease;
   }
 
-
-
-
-
   .ctaimage3 img {
     justify-content: center;
     height: 550px;
     width: auto;
   }
 
-.container-without-image{
-opacity:.6
-}
+  .container-without-image {
+    opacity: .6
+  }
 
-.container-slider-content-text p{
-max-width:none !important;
-line-height: 28px;
-}
-
-
+  .container-slider-content-text p {
+    max-width: none !important;
+    line-height: 28px;
+  }
 
   .big-circle {
     position: absolute;
@@ -613,13 +657,12 @@ line-height: 28px;
   }
 
   @media screen and (max-width: 1024px) {
-    .ctasection {
+    .ctasection {background: ;
       flex-direction: column;
       height: auto;
       align-items: center;
       justify-content: space-around;
     }
-
 
     .cta {
       max-width: 100%;
@@ -642,7 +685,8 @@ line-height: 28px;
       text-align: center;
     }
 
-    .intro-text p {text-align: center;
+    .intro-text p {
+      text-align: center;
       font-size: 18px;
     }
 
