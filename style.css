@@ -16,6 +16,13 @@
   font-size:20px
 
 }
+
+.container-opacity{
+bottom:0 !important;
+height:100 !imortant;}
+
+
+
   .list h3 {
     font-size: 20px;
     color: #585772;
@@ -26,7 +33,7 @@
 .assortments ul img{max-width:100%;}
 
 .assortments ul{
-  width:80%;
+  width:60%;
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   grid-auto-rows: 1fr;
@@ -39,6 +46,10 @@
   margin-left: 15%;
   margin-right: 15%;
 }
+#sliderSection .container-slider-content-text h1 {font-size:24px;}
+#sliderSection .container-slider-content-text p{padding:none;}
+
+
 
 }
 
@@ -132,7 +143,13 @@ outline-offset: 1px 1px 1px 1px;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    padding-bottom:200px;
   }
+
+  #sliderSection .inner-caption-text {
+	padding: 0px 0px 0px 0px;
+  box-sizing: unset;
+}
 
   .title {
     color: whitesmoke;
@@ -209,16 +226,17 @@ outline-offset: 1px 1px 1px 1px;
   }
 
   .list {
-    Display: grid;
-    align-content: start;
+    Display: flex;
+    align-content: center;
     text-align: center;
     line-height: 2;
     grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start: 1;
-    margin-right: 100px;
+    margin:auto;
     padding-bottom:200px;
   }
+
 
   .list h1 {
     font-size: 50px;
@@ -408,7 +426,7 @@ outline-offset: 1px 1px 1px 1px;
   }
 
   .introduction {
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 50px;
     width: 100%;
     margin: auto;
@@ -656,13 +674,64 @@ top:100px;}
     }
   }
 
-  @media screen and (max-width: 1024px) {
-    .ctasection {background: ;
-      flex-direction: column;
-      height: auto;
-      align-items: center;
-      justify-content: space-around;
+  @media screen and (max-width: 1024px){
+     .parchments img {
+      display:none;
     }
+.product h1{
+
+  display:flex;
+  flex-direction:column;
+}
+
+.list{display:flex;
+flex-direction:column;
+}
+.product{
+  display: flex;
+  flex-direction: column;
+}
+.caption-overlay{width:;
+margin:0px 0px;}
+.container-slider-content{
+  padding:20px 20px 20px 20px;
+margin:0px 0px 0px 0px;
+}
+
+
+.product img{
+display: flex;
+flex-direction:center;
+  width:40%;
+  margin:auto;
+
+}
+
+.introduction{display:flex;
+flex-direction:column;
+}
+.coverimage img{width:50%;
+align-self:center;
+margin:auto;
+
+}
+
+
+
+
+    .introduction p{margin:0px;
+padding:0px;
+}
+
+    .parchments {height:70%;
+      position:relative;
+      z-index: 1;
+      background-image: url(./img/paper2.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
 
     .cta {
       max-width: 100%;
@@ -713,6 +782,9 @@ top:100px;}
   }
 
   @media screen and (max-width: 400px) {
+.parchments{height:200px;}
+
+
 
     .banner-text,
     .banner-text3 {
